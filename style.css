@@ -1,0 +1,886 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+.container {}
+
+.divblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    left: 95px;
+    top: 30px;
+}
+
+.leftsideheader {
+    width: 10%;
+    padding-left: 7%;
+}
+
+.leftsideheader h1 {
+    letter-spacing: -2px;
+}
+
+.rightsidediv {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+
+.rightsidediv ul {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.rightsidediv ul li {
+    display: inline;
+    padding-right: 15px;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+
+.rightsidediv ul a {
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+
+.rightsidediv ul li:last-child {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding-left: 15px;
+
+
+
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    color: gray;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 65px;
+    height: 50px;
+}
+
+.introduction h1 {
+    padding-top: 50px;
+}
+
+.welcome {
+    position: relative;
+    padding-left: 500px;
+    width: 38%;
+    text-align: center;
+
+
+
+
+
+}
+
+.welcome h1 {
+    font-size: 64px;
+    font-weight: bold;
+
+
+}
+
+.twobuttons {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 39%;
+
+
+}
+
+.twobuttons1 {
+    width: 153px;
+    height: 30px;
+    border: 1px black solid;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+
+}
+
+.twobuttons2 {
+    padding-top: 15px;
+
+
+}
+
+.points {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    line-height: 100px;
+    color: gray;
+    height: 50px;
+}
+
+.green {
+    color: green;
+}
+
+.manimg {
+    height: 528px;
+    display: flex;
+    justify-content: center;
+}
+
+.introduce {
+
+
+    height: 293px;
+    width: 1012px;
+    line-height: 73px;
+    font-size: 61px;
+    text-align: center;
+    left: 250px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.secondimg {
+    padding-top: 50px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+}
+
+.introducesecond {
+    height: 350px;
+    width: 1012px;
+    line-height: 90px;
+    font-size: 40px;
+    text-align: center;
+    left: 250px;
+    position: relative;
+    font-weight: 50;
+
+
+}
+
+.threepic {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    padding-left: 50px;
+}
+
+.threepictex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 16px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.twocolumn {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 512px;
+}
+
+.text h1 {
+    font-size: 61px;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.twobuttons3 {
+    width: 153px;
+    height: 30px;
+    border: 1px black solid;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+
+}
+
+.formone {
+    background: #FAFAFA;
+    height: 800px;
+    width: auto;
+    display: flex;
+    gap: 500px;
+    margin-top: 50px;
+}
+
+.basket {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-top: 2px solid #E4E4E4;
+    border-bottom: 2px solid #E4E4E4;
+}
+
+.price {
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    left: 100px;
+}
+
+.basket p {
+    font-weight: bolder;
+}
+
+.formtable {
+    position: relative;
+    width: 350px;
+    border: 0px solid black;
+    height: 100%;
+    left: 300px;
+}
+
+.arrows {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.contact {
+    margin: 5px 0px 5px 0;
+    padding: 0 0 0 15px;
+    font-weight: bold;
+    font-style: oblique;
+    color: gray;
+    font-size: 20px;
+    background-color: white;
+    ;
+
+}
+
+.inputone {
+    margin-bottom: 20px;
+    border: 0;
+    padding: 10px 0 10px 15px;
+
+
+}
+
+.contactship {
+    border: 2px #E4E4E4 solid;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+.contactship button {
+    border: 0;
+    background-color: white;
+    position: relative;
+    left: 20%;
+    top: -25px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+.formtext {
+    position: relative;
+    top: 200px;
+    font-size: 31px;
+    width: 800px;
+}
+
+.formtext p {
+    font-size: 20px;
+}
+
+.standart{
+    float: left ;
+    border: 2px #E4E4E4 solid;
+    border-radius: 7px;
+    background-color: white;
+    width: 99%;
+    padding:15px 0 15px 0;
+}
+
+.standartspan1 {
+   font-size: 23px;
+    font-weight: 300;
+}
+.standartspan2{
+    font-size: 20px;
+    font-weight: 900;
+    padding:20px 0 20px 150px;
+    
+
+}
+
+.standartspan3 {
+    float: right;
+    font-size: 20px;
+    font-weight: 900;
+    padding-right: 20px;
+}
+
+.deliver {
+    font-size: 12px;
+    color: gray;
+    padding-left: 25px;
+
+}
+
+.standartspan4 {
+    font-size: 23px;
+    font-weight: 300;
+    padding-top: 20px;
+    
+}
+
+.standart2 {
+    float: left ;
+    border: 2px #E4E4E4 solid;
+    border-radius: 7px;
+    background-color: white;
+    width: 99%;
+    height: 8%;
+    padding-top:  10px;
+    padding-bottom: 0;
+  
+}
+
+.pricespan {
+    float: right;
+    font-size: 20px;
+    font-weight: 900;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.finalcheck{
+    padding-top: 20px;
+    position: relative;
+    top: 10px;
+}
+
+
+.grow{
+    text-align: center;
+    font-size:18px;
+    width: 55%;
+    padding-left: 25%;
+    line-height: 20px;
+
+}
+
+.thirdimg{
+    display: flex;
+    justify-content: center;
+}
+
+.faqs {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 15px;
+}
+.faqs h1{
+    position: relative;
+    left:25%;
+    font-size:60px;
+}
+.faqs p{
+    position: relative;
+    left:47%;
+    color: gray;
+}
+
+.getstart {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #FBFBFB;
+    margin-left: 100px;
+    margin-right: 100px;
+   margin-bottom: 150px;
+   padding-bottom: 50px;
+}
+.startleft{
+    margin-right: 50px;
+}
+
+.startleftp{
+    color: gray;
+    padding-top: 50px;
+    position: relative;
+    top: 40px;
+}
+
+.startleft h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+.growingtext{
+    position: relative;
+    bottom:20px;
+}
+
+.requestbetabottom{width: 153px;
+height: 50px;
+border: 1px black solid;
+text-align: center;
+background-color: black;
+color: white;
+border-radius: 25px;
+}
+.startright{
+    padding-top: 100px;
+}
+
+.order{
+    height: 60px;
+    width: 350px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.footerend{
+    border-top: solid 1px gray;
+  box-shadow: 0px -2px 5px 1px;
+}
+
+.footerleft{
+width: 30%;
+}
+
+.imgloc{
+    padding-left: 20px;
+    width: 30%;
+    height: 50px;
+}
+.imgloc p{
+    position: relative;
+    top:-90px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 50px;
+}
+
+.samedaytext{
+    color: gray;
+    padding-left: 10px;
+}
+
+.footerright{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.footerend{
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+}
+
+.firstcol{
+    line-height: 30px;
+
+}
+
+.firstcol {
+    width: 100px;
+}
+
+.secondcol{
+    color: black;
+    text-decoration:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+
+/*Styling Selectbox*/
+.drop {
+    height:200px;
+    width: 50%;
+    position: relative;
+    left:25%;
+    display: grid;
+    font-size:20px;
+}
+
+.jsfont{
+    font-size:20px;
+    font-weight: 500;
+}
+.dropdown {
+    margin-top: 20px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  border-bottom: 3px solid gray;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  color: #474747;
+  height: 60%;
+  text-align: left
+}
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+.dropdown .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.dropdown:active {
+    background-color: #f8f8f8
+}
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8
+}
+.dropdown.active .select > i {
+    transform: rotate(-90deg)
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9
+}
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+} 
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+/* fffffffffffffffffffffffffffffffffffffffffffffffffffff */
+
+
+
+
+
+
+
+
+/* .standard  input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+
+    .divblock{
+        width: 110%;
+        height: 100%;
+    }
+    .headerlist{
+        width: 100%;
+        height: 45%;
+    }
+.rightsidediv{
+     
+        display: inline-block;
+      text-align: center;
+        padding-right: 50%;
+       
+}
+.headerlist li{
+    width: 100%;
+    font-size: 10px;
+    
+    
+}
+.leftsideheader{
+    width: 100%;
+    line-height: 20px;
+}
+.leftsideheader img{
+    height: 4%;
+}
+.logo {
+    width: 4%;
+    left:7%
+}
+.rightsidediv ul a {
+    width: 100%;
+    padding:0;
+    margin: 0;
+    left:30%;
+    display: inline-block;
+
+    
+}
+.rightsidediv ul li {
+    line-height: 100%;
+    width: 100%;
+   
+}
+
+.introduction {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+.welcome {
+    padding: 0;
+    margin: 0;
+    height: 50%;
+    width: 100%;
+    padding-bottom: 10%;
+    
+}
+.welcome h1{
+    font-size: 30px;
+}
+
+.twobuttons{
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    line-height:13px;
+    width: 70%;
+    left:10%;
+}
+
+.twobuttons2{
+    line-height: 100%;
+    margin: 0;
+    padding:0;
+    
+}
+.manimg img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.manimg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+.introduce{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    line-height: 120%;
+    position: relative;
+    left: 0%;
+}
+
+.secondimg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.threepic{
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    display:inline-block;
+    margin: 0;
+    padding:0;
+
+}
+.threepic img{
+    width: 30%;
+    height: 70%;
+    display:inline-block;
+    position: relative;
+    left: 0%;
+    margin: 0;
+    padding:0;
+   
+}
+
+.introducesecond{
+width: 100%;
+height: 100%;
+font-size: 100%;
+line-height: 190%;
+position: relative;
+left: 0%;
+}
+
+
+.threepictex{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.textpic{
+    width: 100%;
+    height: 100%;
+}
+
+.textpic img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+.text h1{
+    font-size: 20px;
+}
+
+.formone{
+    width: 100%;
+    height:100%;
+    padding:0;
+    margin: 0;
+    left: 0;
+    display: block;
+}
+
+.formtable{
+    left:0;
+    width: 100%;
+}
+
+.price{
+    padding:0;
+    margin:0;
+    width: 100%;
+    padding:0;
+    left:20%;
+}
+
+.formtext{
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
